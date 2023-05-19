@@ -87,7 +87,7 @@ public class SellerDaoJDBC implements SellerDao {
             st.setInt(1,id);
             int rows = st.executeUpdate();
             if(rows == 0 ){
-                throw  new SQLException();
+                throw  new SQLException("invalid Id!s");
             }
         }
         catch (SQLException e){

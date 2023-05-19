@@ -39,7 +39,7 @@ public class Program {
          sellerDao.update(seller);
          System.out.println("Update completed");
         System.out.println("\n=== TEST 6: seller update ===");
-        int id = 9;
+        int id = 8;
         sellerDao.deleteById(id);
         System.out.println("Delete completed!");
 
